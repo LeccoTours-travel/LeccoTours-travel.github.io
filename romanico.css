@@ -1,145 +1,258 @@
-*{
-   
+* {
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: comic Arial, Helvetica, sans-serif;
-    
+
     display: block;
     margin: 0 auto;
     width: 100%;
-   
+
 }
-header{
-    font-size: 2.5em;
+
+header {
+    font-size: 3vw;
     color: black;
     background-color: rgb(48, 236, 48);
     font-weight: bolder;
     display: block;
     margin: 0 auto;
     text-align: center;
-     padding: 15px;
+    padding: 15px;
 }
-header h4{
+
+header h4 {
     text-align: left;
-    font-size: 0.7em;
+    font-size: 2.5vw;
 }
-main{
+
+main {
     padding-top: 15px;
     background-color: rgb(166, 244, 166);
+    font-size: 1.3vw;
 }
-h3{
-font-size: 2.5em;
+
+h3 {
+    font-size: 3.3vw;
 }
-.lecco{
+
+.lecco {
     padding: 5px 0;
     text-align: center;
 }
-article, section{
+
+article,
+section {
     padding-top: 20px;
     overflow: hidden;
-     padding: 15px;
+    padding: 15px;
 }
-article h4, section h4{
+
+article h4,
+section h4 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5vw;
     padding-bottom: 10px;
 }
-article img, section img{
+
+article img,
+section img {
     float: left;
     width: 50%;
     border: 4px solid black;
 }
-article aside, section aside{
+
+article aside,
+section aside {
     width: 50%;
     float: left;
     padding-left: 30px;
 }
-aside li{
+
+aside li {
     padding: 10px 0 0 4px;
 }
-article h5, section h5{
+
+article h5,
+section h5 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5vw;
 }
-.ciao{
+
+.ciao {
     padding-top: 10px;
-    font-size: 1.5em;
+    font-size: 2vw;
 }
-a{
+
+a {
     color: black;
 }
-a:hover{
+
+a:hover {
     color: blue;
 }
-a:active{
+
+a:active {
     color: red;
 }
-hr{
+
+hr {
     width: 100%;
     border: 2px black solid;
 }
-.romanico{
+
+.romanico {
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8vw;
     font-weight: bold;
     font-style: oblique;
 }
-.roma{
+
+.roma {
     padding: 15px;
 }
-button{
+
+button {
     width: 30%;
-    margin-left: 2.5%;
     padding: 10px 30px;
     float: left;
-    background-color:  orange;
+    background-color: orange;
     border-radius: 10px;
-
+    margin-right: 1%;
+    margin-left: 1%;
 }
-button li{
+
+button li {
     text-align: left;
 }
-.salve{
+
+.salve {
     text-align: center;
     font-weight: bolder;
 }
+
 .milano, .monza{
     overflow: hidden;
     width: 100%;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
-.bergamo{
+
+.bergamo {
     text-align: center;
     padding-bottom: 10px;
 }
-footer{
+
+footer {
     background-color: rgb(48, 236, 48);
     overflow: hidden;
 }
-figure{
-    padding: 15px;
-    overflow: hidden;
-    float: left;
-    padding-left: 100px;
-    padding-top: 35px;
+
+figure {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
-footer section{
-    float: left;
-}
-footer p{
+
+footer p {
     padding-top: 5px
 }
-footer img{
-    float: left;
+
+footer img {
     padding: 0 3px;
 }
-figcaption{
-    float: left;
+
+figcaption {
     padding-right: 5px;
     padding-top: 8px;
+}
+
+@media(width<=700px) {
+    main {
+        font-size: 3vw;
+    }
+
+    header {
+        font-size: 6vw;
+    }
+
+    header h4 {
+        font-size: 5vw;
+    }
+
+    article h4,
+    section h4 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    article h5,
+    section h5 {
+        font-size: 5vw;
+        padding-top: 15px;
+    }
+
+    .ciao {
+        font-size: 4vw;
+    }
+
+    .romanico {
+        font-size: 3.6vw;
+    }
+
+    article img,
+    section img {
+        width: 100%;
+    }
+
+    article aside,
+    section aside {
+        width: 100%;
+    }
+}
+
+@media(width>=1445px) {
+    figure {
+        padding: 15px;
+        overflow: hidden;
+        float: left;
+        padding-left: 100px;
+        padding-top: 35px;
+    }
+
+    footer section {
+        float: left;
+    }
+
+    footer p {
+        padding-top: 5px
+    }
+
+    footer img {
+        float: left;
+        padding: 0 3px;
+    }
+
+    figcaption {
+        float: left;
+        padding-right: 5px;
+        padding-top: 8px;
+    }
+}
+
+@media(width<=600px) {
+    button{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -17px;
+    }
 }
