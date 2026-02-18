@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: comic Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header h4{
+    text-align: left;
+    font-size: 0.7em;
+} 
+main{
+    background-color: rgb(166, 244, 166);
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+hr{
+    width: 100%;
+    border: 2px black solid;
+}
+main h2{
+    font-size: 2.7em;
+    text-align: center;
+}
+
+main figure{
+    overflow: hidden;
+    padding: 20px 0;
+}
+main p{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+main figure img{
+    width: 38%;
+    float: left;
+    margin: 10px;
+    border: black 2px solid;
+}
+main ul{
+    padding-left: 20px;
+}
+main figcaption{
+    float: left;
+    width: 60%;
+    font-size: 1.2em;
+}
+header{
+    font-size: 2.5em;
+    color: black;
+    background-color: rgb(48, 236, 48);
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+footer{
+    background-color: rgb(48, 236, 48);
+    overflow: hidden;
+    padding: 10px;
+}
+footer figure{
+    padding: 15px;
+    overflow: hidden;
+    float: left;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+footer section{
+    float: left;
+}
+footer p{
+    padding-top: 5px
+}
+footer img{
+    float: left;
+    padding: 0 3px;
+}
+footer figcaption{
+    float: left;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+.paolo{
+    font-size: 1.2em;
+}
+a{
+    color: black;
+}
