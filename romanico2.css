@@ -104,6 +104,13 @@ figcaption {
 a{
     color: black;
 }
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
 .riccardo{
     display: block;
     width: 60%;
