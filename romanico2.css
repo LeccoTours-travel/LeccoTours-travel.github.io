@@ -34,7 +34,9 @@ main h2{
 
 main figure{
     overflow: hidden;
+    background-color: rgb(166, 244, 166);
     padding: 10px 0;
+    width: 100%;
 }
 main p{
     padding: 5px;
@@ -71,12 +73,18 @@ footer {
     overflow: hidden;
 }
 
-figure {
+figure{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+footer figure{
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 20px;
 }
-
+ footer section{
+    padding: 15px;
+ }
 footer p {
     padding-top: 5px
 }
@@ -96,8 +104,20 @@ figcaption {
 a{
     color: black;
 }
+.riccardo{
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin: 5% 20%;
+    font-size: 3vw;
+    background-color: rgb(236, 84, 84);
+    color: black;
+    padding: 30px 0;
+    border-radius: 20px;
+}
 @media(width>=1445px) {
-    figure {
+    footer figure {
         padding: 15px;
         overflow: hidden;
         float: left;
@@ -147,5 +167,16 @@ a{
     }
     main figure figcaption{
         width: 100%;
+    }
+}
+@media(width<=600px)
+{
+    .riccardo{
+        width: 80%;
+        font-size: 8vw;
+        margin: 0 10%;
+        margin-top: 5%;
+        padding: 15px;
+    
     }
 }
